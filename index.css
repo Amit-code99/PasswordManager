@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main{
+   width: 80%;
+   height: 100%;
+   margin: 0 auto;
+   background-color: white;
+   padding: 40px 50px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+.heading{
+  text-align: center;
+  color:#555 ; 
+}
+ h2,p{
+    text-align: center;
+    margin: 5px ;
+    color: #555;
+ }
+ p{
+   font-size: 20px;
+ }
+.passcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ .passcon table{
+   width: 100%;
+   margin-top: 20px;
+   border-collapse: collapse;
+ }
+ th,td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+ }
+ th{
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+ }
+ .inputcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .form-group {
+   margin-bottom: 15px;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 8px;
+   color: #555;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+h1 {
+   text-align: center;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+ #addbtn{
+    padding: 12px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-left: 30%;
+    background-color: rgb(41, 200, 86);
+    color: #ccc;
+    border: none;
+    font-size: 15px;
+ }
+ #reset{
+   padding: 12px 60px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 10px auto;
+   margin-left: 5px;
+   background-color: rgb(217, 60, 62);
+   color: #ccc;
+   border: none;
+   font-size: 15px;
+ }
+ #btn{
+   border: none;
+    padding: 3px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(217, 60, 62);
+    color: #ccc;
+    font-size: 14px;
+ }
